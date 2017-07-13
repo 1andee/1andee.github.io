@@ -2,3 +2,88 @@ body {
 	font-family: 'Helvetica', sans-serif;
 	float: left;
 }
+
+section {
+	padding-top: 10px;
+}
+
+aside {
+	float: right;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ol {
+	list-style-type: none;
+}
+
+li {
+	padding-top: 10px;
+}
+
+.jumbotron {
+	background-color: white;
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+
+.fa {
+	vertical-align: middle;
+}
+
+#main {
+	padding: 30px 50px 50px 40px;
+	text-align: justify;
+}
+
+#employment li {
+	padding-bottom: 3px;
+}
+
+#sidebar {
+	background-color: #eceeef;
+	padding: 30px 0 0 0;
+	min-height: 410px;
+}
+
+#sidebar img {
+	margin-bottom: 20px;
+}
+
+#sidebar a {
+	color: inherit;
+}
+
+#sidebar i {
+	font-size: 1.3em;
+}
+
+#sidebar .fa-github {
+	font-size: 2em;
+}
+
+@media (min-width: 768px) {
+
+	.jumbotron {
+		padding: 50px 0 30px 0;
+	}
+
+	#sidebar {
+		padding: 100px 0 0 40px;
+	}
+
+	#wrapper {
+		position: fixed;
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+	#sidebar {
+		padding: 100px 0 0 65px;
+	}
+
+}
