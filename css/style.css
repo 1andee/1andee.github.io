@@ -33,6 +33,10 @@ li {
 	vertical-align: middle;
 }
 
+.card-header {
+	background-color: #eceeef;
+}
+
 #main {
 	padding: 30px 50px 50px 40px;
 	text-align: left;
