@@ -68,21 +68,6 @@ h2 .fa {
 	padding-bottom: 3px;
 }
 
-input {
-	border-width: 0 0 2px 0;
-	text-align: center;
-}
-
-#contact-form .fa {
-	font-size: 0.9em;
-}
-
-#contact-form .bigbox {
-	text-align: left;
-	width: 50%;
-	height: 75px;
-}
-
 #sidebar {
 	background-color: #eceeef;
 	padding-top: 30px;
