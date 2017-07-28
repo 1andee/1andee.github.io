@@ -33,8 +33,17 @@ li {
 	vertical-align: middle;
 }
 
+h2 .fa {
+	margin-top: -4px;
+	padding-right: 15px;
+}
+
 .card-header {
 	background-color: #eceeef;
+}
+
+.hidden {
+	display:none;
 }
 
 #main {
@@ -46,6 +55,10 @@ li {
 	padding-bottom: 7px;
 }
 
+#education .fa {
+	padding-right: 10px;
+}
+
 #education ul {
 	list-style-type: disc;
 	text-align: left;
@@ -55,9 +68,14 @@ li {
 	padding-bottom: 3px;
 }
 
+input {
+	border-width: 0 0 2px 0;
+	text-align: center;
+}
+
 #sidebar {
 	background-color: #eceeef;
-	padding: 30px 0 0 0;
+	padding-top: 30px;
 	min-height: 410px;
 }
 
@@ -71,6 +89,10 @@ li {
 
 #sidebar i {
 	font-size: 1.3em;
+}
+
+#sidebar .fa {
+	padding-right: 6.5px;
 }
 
 #sidebar .fa-github {
@@ -88,7 +110,7 @@ li {
 	}
 
 	#sidebar {
-		padding: 100px 0 0 40px;
+		padding: 100px 0 0 23px;
 	}
 
 	#wrapper {
@@ -97,7 +119,7 @@ li {
 
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1199px) {
 
 	#sidebar {
 		padding: 100px 0 0 65px;
