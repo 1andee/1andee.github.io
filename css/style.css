@@ -73,6 +73,16 @@ input {
 	text-align: center;
 }
 
+#contact-form .fa {
+	font-size: 0.9em;
+}
+
+#contact-form .bigbox {
+	text-align: left;
+	width: 50%;
+	height: 75px;
+}
+
 #sidebar {
 	background-color: #eceeef;
 	padding-top: 30px;
