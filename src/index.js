@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Header from './components/header';
-import EducationVolunteer from './containers/education_volunteer';
 import Skills from './components/skills';
+import Projects from './components/projects';
+import EducationVolunteer from './containers/education_volunteer';
+import Contact from './components/contact';
 import Footer from './components/footer';
 
 class App extends Component {
@@ -12,6 +14,8 @@ class App extends Component {
         <Header />
         <Skills />
         <EducationVolunteer />
+        <Projects />
+        <Contact />
         <Footer />
       </div>
     );
