@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const Volunteer = () => {
   return (
-    <div className="fl w-100 w-50-l bg-light-gray">
+    <div className="fl w-100 w-50-l">
       <h2 className="tc">Volunteer Experience</h2>
       <ul className="list pl0">
         <li className="pa3 pa4-ns">

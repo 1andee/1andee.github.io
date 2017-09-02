@@ -11,11 +11,15 @@ const Skills = () => {
   });
 
   return (
-    <section id="skills">
+    <section id="skills" className="bb b--black-10">
 
-      <h2 className="tc">skillz</h2>
+      <header className="tc">
+        <h1 className="f4 f3-m f2-l fw2 black-90">
+          skills
+        </h1>
+      </header>
 
-      <ul className="list ph3 ph5-ns pv4">
+      <ul className="list ph3 ph5-ns pv3">
         {renderSkills}
       </ul>
     </section>

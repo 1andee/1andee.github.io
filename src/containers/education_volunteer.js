@@ -4,7 +4,7 @@ import Volunteer from '../components/volunteer';
 
 const EducationVolunteer = () => {
   return (
-    <article className="cf">
+    <article className="cf pv4 bb b--black-10">
       <Education />
       <Volunteer />
     </article>

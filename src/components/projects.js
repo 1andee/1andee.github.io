@@ -19,7 +19,7 @@ const Projects = () => {
     return (
       <div className="fl w-50 w-25-m w-20-l pa2" key={project[0]}>
         <a href={project[2]} className="db link dim tc" target="_blank">
-          <img src={project[3]} className="w-100 db outline black-10"/>
+          <img src={project[3]} className="w-100 db outline black-30"/>
           <dl className="mt2 f6 lh-copy">
             <dd className="ml0 black truncate w-100">{project[0]}</dd>
             <dd className="ml0 gray truncate w-100">{project[1]}</dd>
@@ -31,8 +31,12 @@ const Projects = () => {
 
 
   return (
-    <section>
-      <h2 className="f3 fw4 pa3 mv0">Projects</h2>
+    <section className="pv4 bg-light-gray">
+      <header className="tc">
+        <h1 className="f4 f3-m f2-l fw2 black-90 mv4">
+          project work
+        </h1>
+      </header>
       <div className="cf pa2">
         {renderProjects}
       </div>
