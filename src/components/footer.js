@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
+import Scroll from 'react-scroll';
+const Link = Scroll.Link;
 
 const Footer = () => {
   return (
-    <footer className="pa4 pa5-l bg-light-gray black-70 bt b--black-10">
+    <footer className="pt4 pt5-l bg-light-gray black-70 bt b--black-10">
 
       <article className="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
         <div className="tc">
@@ -29,6 +31,12 @@ const Footer = () => {
         <a className="link near-black hover-silver dib h2 w2" href="mailto:ian.c.duke@gmail.com" title="Email Ian Duke">
           <i className="fa fa-envelope fa-2x" aria-hidden="true"></i>
         </a>
+      </div>
+
+      <div className="tc">
+      <Link to="very-top" smooth={true} duration={500}>
+        <i className="fa fa-chevron-circle-up fa-2x black-80 pt4 hover-silver link pointer" aria-hidden="true"></i>
+      </Link>
       </div>
 
     </footer>

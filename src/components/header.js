@@ -4,7 +4,7 @@ const Link = Scroll.Link;
 
 const Header = () => {
     return (
-      <header className="vh-100 dt w-100">
+      <header id="very-top" className="vh-100 dt w-100">
 
         <div className="dtc v-mid tc ph3 ph4-l">
 
@@ -17,7 +17,7 @@ const Header = () => {
         </h2>
 
         <Link to="skillz" smooth={true} duration={500}>
-          <i className="fa fa-angle-double-down fa-2x black-80 bounce animated pv4" aria-hidden="true"></i>
+          <i className="fa fa-angle-double-down fa-2x black-80 bounce animated pv4 link pointer" aria-hidden="true"></i>
         </Link>
 
         </div>

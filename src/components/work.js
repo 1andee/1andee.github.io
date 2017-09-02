@@ -14,8 +14,8 @@ const Work = () => {
       <div className="fl w-100 w-25-l pa3-m pa4-l" key={job[0]}>
         <p className="f6 lh-copy b">{job[0]}</p>
         <p className="f6 lh-copy">{job[1]}</p>
-        <p className="f6 lh-copy">{job[3]}</p>
         <p className="f6 lh-copy">{job[2]}</p>
+        <p className="f6 lh-copy">{job[3]}</p>
       </div>
     );
   });

@@ -9,8 +9,8 @@ const Projects = () => {
     ['Rails e-commerce', 'Ruby on Rails', 'https://github.com/1andee/rails-ecommerce', 'http://via.placeholder.com/250x150'],
     ['Tweeter', 'JS, jQuery, MongoDB', 'https://github.com/1andee/tweetr', 'http://via.placeholder.com/250x150'],
     ['URL Shortener', 'JS, Bootstrap', 'https://github.com/1andee/url-shortener', 'http://via.placeholder.com/250x150'],
-    ['Fin lookup', 'JS, jQuery, Postgres, Knex', 'https://github.com/1andee/ac-fin-lookup', 'http://via.placeholder.com/250x150'],
-    ['Quote generator', 'JS, jQuery', 'https://github.com/1andee/hedberg-quote-machine', 'http://via.placeholder.com/250x150'],
+    ['Fin Lookup', 'JS, jQuery, Postgres, Knex', 'https://github.com/1andee/ac-fin-lookup', 'http://via.placeholder.com/250x150'],
+    ['Quote Generator', 'JS, jQuery', 'https://github.com/1andee/hedberg-quote-machine', 'http://via.placeholder.com/250x150'],
     ['Youtube Viewer', 'React', 'http://iantube.herokuapp.com/', 'http://via.placeholder.com/250x150'],
     ['Chattyapp', 'React, Sockets', 'https://github.com/1andee/chatty-app', 'http://via.placeholder.com/250x150']
   ]
