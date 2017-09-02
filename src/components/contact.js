@@ -18,7 +18,7 @@ const Contact = () => {
           <label htmlFor="email" className="f6 b db mb2">Email address</label>
           <input id="email" className="input-reset ba b--black-20 pa2 mb2 db w-100" type="text" />
           <label htmlFor="comment" className="f6 b db mb2">Comments</label>
-          <textarea id="comment" name="comment" className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2"></textarea>
+          <textarea id="comment" name="comment" className="db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" rows="6"></textarea>
         </div>
 
         <div className="mt3 tc">
