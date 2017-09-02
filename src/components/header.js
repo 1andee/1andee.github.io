@@ -4,7 +4,7 @@ const Link = Scroll.Link;
 
 const Header = () => {
     return (
-      <header id="very-top" className="vh-100 dt w-100">
+      <header id="very-top" className="vh-100 dt w-100 bb b--black-10">
 
         <div className="dtc v-mid tc ph3 ph4-l">
 

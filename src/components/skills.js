@@ -19,7 +19,7 @@ const Skills = () => {
         </h1>
       </header>
 
-      <ul className="list ph3 ph5-ns pv3">
+      <ul className="list ph3 ph5-ns pv3 w-100 w-70-l center">
         {renderSkills}
       </ul>
     </section>

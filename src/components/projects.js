@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 const Projects = () => {
 
   const projectList = [
-    ['Pairwise', 'Ruby on Rails, Postgres', 'https://github.com/1andee/pairwise', 'http://via.placeholder.com/250x150'],
+    ['Pairwise', 'Rails, Postgres', 'https://github.com/1andee/pairwise', 'http://via.placeholder.com/250x150'],
     ['Smart To-Do List', 'JS, jQuery, Postgres, Knex', 'https://github.com/1andee/TODO-list', 'http://via.placeholder.com/250x150'],
     ['gtmaa.com', 'Wordpress + APIs', 'http://gtmaa.com', 'http://via.placeholder.com/250x150'],
-    ['Rails e-commerce', 'Ruby on Rails', 'https://github.com/1andee/rails-ecommerce', 'http://via.placeholder.com/250x150'],
+    ['eCommerce Storefront', 'Rails, Postgres', 'https://github.com/1andee/rails-ecommerce', 'http://via.placeholder.com/250x150'],
     ['Tweeter', 'JS, jQuery, MongoDB', 'https://github.com/1andee/tweetr', 'http://via.placeholder.com/250x150'],
     ['URL Shortener', 'JS, Bootstrap', 'https://github.com/1andee/url-shortener', 'http://via.placeholder.com/250x150'],
     ['Fin Lookup', 'JS, jQuery, Postgres, Knex', 'https://github.com/1andee/ac-fin-lookup', 'http://via.placeholder.com/250x150'],
@@ -34,7 +34,7 @@ const Projects = () => {
     <section className="pv4 bg-light-gray">
       <header className="tc">
         <h1 className="f4 f3-m f2-l fw2 black-90 mv4">
-          project work
+          projects
         </h1>
       </header>
       <div className="cf pa2">

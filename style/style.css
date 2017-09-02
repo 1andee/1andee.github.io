@@ -40,7 +40,7 @@ https://github.com/l-lin/font-awesome-animation
   }
 }
 
-.bounce {
+.bounce, .fa-chevron-circle-up:hover {
   -webkit-animation: bounce 2s ease infinite;
   animation: bounce 2s ease infinite;
 }

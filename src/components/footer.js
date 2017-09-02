@@ -24,7 +24,7 @@ const Footer = () => {
           <i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
         </a>
 
-        <a className="link near-black hover-silver dib h2 w2 mr3" href="http://github.com/1andee" target="_blank" title="Ian Duke's GitHub">
+        <a className="link near-black hover-silver dib h2 w2 mr3" href="http://github.com/1andee" target="_blank" title="Ian Duke's GitHub Profile">
           <i className="fa fa-github fa-2x" aria-hidden="true"></i>
         </a>
 
