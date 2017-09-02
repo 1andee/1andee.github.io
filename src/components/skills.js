@@ -11,10 +11,10 @@ const Skills = () => {
   });
 
   return (
-    <section id="skills" className="bb b--black-10">
+    <section id="skills" className="bb b--black-10 pv4">
 
       <header className="tc">
-        <h1 className="f4 f3-m f2-l fw2 black-90">
+        <h1 className="f4 f3-m f2-l fw2 black-80">
           skills
         </h1>
       </header>
