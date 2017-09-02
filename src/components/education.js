@@ -10,7 +10,7 @@ const Education = () => {
 
   const renderSchools = schoolList.map((school) => {
     return (
-      <li className="pa3 pa4-ns" key={school[0]}>
+      <li className="pa3 pa4-ns black-80" key={school[0]}>
       <b className="db f4 mb1">{school[0]}</b>
       <span className="f5 db lh-copy measure">{school[1]}</span>
       </li>
@@ -21,7 +21,7 @@ const Education = () => {
   <div className="fl w-100 w-50-l">
 
     <header className="tc">
-      <h1 className="f4 f3-m f2-l fw2 black-90 mv3">
+      <h1 className="f4 f3-m f2-l fw2 black-90 mv3 pr5-l">
         education
       </h1>
     </header>
