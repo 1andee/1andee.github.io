@@ -5,7 +5,7 @@ const Volunteer = () => {
     <div className="fl w-100 w-50-l">
 
       <header className="tc">
-        <h1 className="f4 f3-m f2-l fw2 black-90 mv3 pr5-l">
+        <h1 className="f4 f3-m f2-l fw2 black-90 mv3 pr4-l">
           volunteer experience
         </h1>
       </header>

@@ -11,7 +11,7 @@ const Skills = () => {
   });
 
   return (
-    <section id="skills" className="bb b--black-10 pv4">
+    <section id="skillz" className="bb b--black-10 pv4">
 
       <header className="tc">
         <h1 className="f4 f3-m f2-l fw2 black-80">
