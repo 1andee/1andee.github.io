@@ -28,9 +28,14 @@ const Footer = () => {
           <i className="fa fa-github fa-2x" aria-hidden="true"></i>
         </a>
 
-        <a className="link near-black hover-silver dib h2 w2" href="mailto:ian.c.duke@gmail.com" title="Email Ian Duke">
+        <a className="link near-black hover-silver dib h2 w2 mr3" href="./CV.pdf" title="Ian Duke's résumé" target="_blank">
+          <i className="fa fa-file-text fa-2x" aria-hidden="true"></i>
+        </a>
+
+        <a className="link near-black hover-silver dib h2 w2 mr3" href="mailto:ian.c.duke@gmail.com" title="Email Ian Duke">
           <i className="fa fa-envelope fa-2x" aria-hidden="true"></i>
         </a>
+
       </div>
 
       <div className="tc">
