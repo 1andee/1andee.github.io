@@ -17,7 +17,7 @@ const Projects = () => {
 
   const renderProjects = projectList.map((project) => {
     return (
-      <div className="fl w-50 w-25-m w-20-l pa2" key={project[0]}>
+      <div className="fl w-50 w-25-m w-20-l ph2 pv4" key={project[0]}>
         <a href={project[2]} className="db link dim tc" target="_blank">
           <img src={project[3]} className="w-100 db outline black-30"/>
           <dl className="mt2 f6 lh-copy">
@@ -33,7 +33,7 @@ const Projects = () => {
   return (
     <section className="pv4 bg-light-gray">
       <header className="tc">
-        <h1 className="f4 f3-m f2-l fw2 black-90 mv4">
+        <h1 className="f4 f3-m f2-l fw2 black-90 mv5">
           projects
         </h1>
       </header>
