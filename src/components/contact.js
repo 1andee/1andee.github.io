@@ -6,6 +6,8 @@ class Contact extends Component {
     super(props);
 
     this.state = {
+      isSending: false,
+      isEmailSent: false,
       name: '',
       email: '',
       comment: ''
@@ -24,6 +26,7 @@ class Contact extends Component {
 
   onSubmit = (ev) => {
     ev.preventDefault();
+    this.setState({ isSending: true });
     this.sendForm();
   }
 
@@ -35,12 +38,35 @@ class Contact extends Component {
     request.send(`name=${name}&email=${email}&comment=${comment}`)
 
     request.onload = () => {
-      console.log('DONE', request.status);
-      // Successful submission if (request.status === 200)
+      if (request.status === 200) {
+        // request successfully delivered / sent to google
+        this.setState({ isSending: false });
+        this.setState({ isEmailSent: true });
+      }
     }
   }
 
   render() {
+
+    let appendedH2 = null;
+    const isSending = this.state.isSending;
+    const isEmailSent = this.state.isEmailSent;
+
+    if (isSending) {
+      appendedH2 = <i className="fa fa-refresh fa-spin fa-3x fa-fw black-70 pt2-ns" />;
+    } else if (isEmailSent) {
+      appendedH2 = <img src="https://i.giphy.com/media/8GY3UiUjwKwhO/source.gif" className="h4"/>;
+      this.state = {
+        name: '',
+        email: '',
+        comment: ''
+      };
+      let form = document.getElementById("contact-form");
+      form.reset();
+    } else {
+      appendedH2 = '';
+   }
+
     return (
       <section className="pv4">
         <header className="tc">
@@ -49,7 +75,7 @@ class Contact extends Component {
           </h1>
         </header>
 
-        <form className="pa4" onSubmit={this.onSubmit} >
+        <form className="pa4" id="contact-form" onSubmit={this.onSubmit} >
 
           <div className="measure center">
 
@@ -89,13 +115,16 @@ class Contact extends Component {
 
           <div className="mt3 tc">
             <input
-              className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6"
+              className="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 "
               type="submit"
               value="submit"
             />
+          <br/><br/>
+          {appendedH2}
           </div>
-
         </form>
+
+
       </section>
     );
   }
