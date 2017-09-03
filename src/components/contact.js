@@ -87,7 +87,6 @@ class Contact extends Component {
               type="text"
               value={this.state.name}
               onChange={this.onInputChange}
-              required
             />
 
             <label htmlFor="email" className="f6 b db mb2">Email address</label>
@@ -98,7 +97,6 @@ class Contact extends Component {
               type="text"
               value={this.state.email}
               onChange={this.onInputChange}
-              required
             />
 
             <label htmlFor="comment" className="f6 b db mb2">Comments</label>
@@ -109,7 +107,6 @@ class Contact extends Component {
               rows="6"
               value={this.state.comment}
               onChange={this.onInputChange}
-              required
             />
           </div>
 
