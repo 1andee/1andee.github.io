@@ -53,23 +53,18 @@ class Contact extends Component {
 
   render() {
 
-    let appendedH2 = null;
+    let sentStatus = null;
     const isSending = this.state.isSending;
     const isEmailSent = this.state.isEmailSent;
 
     if (isSending) {
-      appendedH2 = <i className="fa fa-refresh fa-spin fa-3x fa-fw black-70 pt2-ns" />;
+      sentStatus = <i className="fa fa-refresh fa-spin fa-3x fa-fw black-70 pt2-ns" />;
     } else if (isEmailSent) {
-      appendedH2 = <img src="https://i.giphy.com/media/8GY3UiUjwKwhO/source.gif" className="h4"/>;
-      this.state = {
-        name: '',
-        email: '',
-        comment: ''
-      };
+      sentStatus = <img src="https://i.giphy.com/media/8GY3UiUjwKwhO/source.gif" className="h4 fade-in"/>;
       let form = document.getElementById("contact-form");
       form.reset();
     } else {
-      appendedH2 = '';
+      sentStatus = '';
    }
 
     return (
@@ -134,7 +129,7 @@ class Contact extends Component {
               value="submit"
             />
           <br/><br/>
-          {appendedH2}
+          {sentStatus}
           </div>
         </form>
 
