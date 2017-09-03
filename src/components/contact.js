@@ -10,6 +10,7 @@ class Contact extends Component {
       isEmailSent: false,
       name: '',
       email: '',
+      subject: '',
       comment: ''
     }
 
@@ -31,7 +32,11 @@ class Contact extends Component {
   }
 
   sendForm() {
-    let { name, email, comment } = this.state;
+    let { name, email, subject, comment } = this.state;
+    if (subject) {
+      // honeypot
+      return
+    }
     var request = new XMLHttpRequest();
     request.open('POST', 'https://script.google.com/macros/s/AKfycbyZeVWo9ogemJl3YQ9caeq8hE8fMUCCv-5QHbxxdEtuccfohZzV/exec', true);
     request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
@@ -112,6 +117,15 @@ class Contact extends Component {
               required
             />
           </div>
+
+          <input
+            id="subject"
+            type="text"
+            name="subject"
+            size="30"
+            value={this.state.subject}
+            onChange={this.onInputChange}
+          />
 
           <div className="mt3 tc">
             <input

@@ -3,15 +3,15 @@ import React, { Component } from 'react';
 const Projects = () => {
 
   const projectList = [
-    ['Pairwise', 'Rails, Postgres', 'https://github.com/1andee/pairwise', 'http://via.placeholder.com/250x150'],
-    ['Smart To-Do List', 'JS, jQuery, Postgres, Knex', 'https://github.com/1andee/TODO-list', 'http://via.placeholder.com/250x150'],
-    ['gtmaa.com', 'Wordpress + APIs', 'http://gtmaa.com', 'http://via.placeholder.com/250x150'],
-    ['eCommerce Storefront', 'Rails, Postgres', 'https://github.com/1andee/rails-ecommerce', 'http://via.placeholder.com/250x150'],
-    ['Tweeter', 'JS, jQuery, MongoDB', 'https://github.com/1andee/tweetr', 'http://via.placeholder.com/250x150'],
-    ['URL Shortener', 'JS, Bootstrap', 'https://github.com/1andee/url-shortener', 'http://via.placeholder.com/250x150'],
-    ['Fin Lookup', 'JS, jQuery, Postgres, Knex', 'https://github.com/1andee/ac-fin-lookup', 'http://via.placeholder.com/250x150'],
-    ['Quote Generator', 'JS, jQuery', 'https://github.com/1andee/hedberg-quote-machine', 'http://via.placeholder.com/250x150'],
-    ['Youtube Viewer', 'React', 'http://iantube.herokuapp.com/', 'http://via.placeholder.com/250x150'],
+    ['Pairwise', 'Rails, Postgres', 'https://github.com/1andee/pairwise', './images/pairwise.png'],
+    ['Smart To-Do List', 'JS, jQuery, Postgres, Knex', 'https://github.com/1andee/TODO-list', './images/kick-list.png'],
+    ['gtmaa.com', 'Wordpress + APIs', 'http://gtmaa.com', './images/gtmaa.png'],
+    ['eCommerce Storefront', 'Rails, Postgres', 'https://github.com/1andee/rails-ecommerce', './images/rails-store.png'],
+    ['Tweeter', 'JS, jQuery, MongoDB', 'https://github.com/1andee/tweetr', './images/tweeter.png'],
+    ['URL Shortener', 'JS, Bootstrap', 'https://github.com/1andee/url-shortener', './images/tinyurl.png'],
+    ['Fin Lookup', 'JS, jQuery, Postgres, Knex', 'https://github.com/1andee/ac-fin-lookup', './images/fin-lookup.png'],
+    ['Quote Generator', 'JS, jQuery', 'https://github.com/1andee/hedberg-quote-machine', './images/hedberg.png'],
+    ['Youtube Viewer', 'React', 'http://iantube.herokuapp.com/', './images/youtube-viewer.png'],
     ['Chattyapp', 'React, Sockets', 'https://github.com/1andee/chatty-app', 'http://via.placeholder.com/250x150']
   ]
 
