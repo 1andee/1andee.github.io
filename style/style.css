@@ -3,6 +3,10 @@ Bounce animation courtesy Lous Lin
 https://github.com/l-lin/font-awesome-animation
 */
 
+.error {
+  border: 1px solid red!important;
+}
+
 .fa-file-text {
   /* larger than fa-lg but smaller than fa-2x */
   font-size: 1.8em!important;
