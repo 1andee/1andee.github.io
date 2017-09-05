@@ -8,7 +8,7 @@ const Header = () => {
 
         <div className="dtc v-mid tc ph3 ph4-l">
 
-        <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAqkAAAAJGMxMjExNjhlLWIwYjgtNGNkZC04OGQxLTRmZTc2MjI5YTcwMw.jpg" className="br-100 pa1 ba b--black-10 h4 w4" alt="avatar" />
+        <img src="./images/portrait.jpg" className="br-100 pa1 ba b--black-10 h4 w4" alt="avatar" />
         <h1 className="f3 f2-ns fw2 ttu tracked">Ian Duke</h1>
         <h2 className="f6 gray fw2 ttu tracked">web developer</h2>
 
