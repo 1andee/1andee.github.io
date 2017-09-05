@@ -94,10 +94,7 @@ class Contact extends Component {
       sentStatus = <i className="fa fa-spinner fa-pulse fa-3x fa-fw black-70 pt2-ns" />;
     } else if (isEmailSent) {
       let form = document.getElementById("contact-form");
-      sentStatus =
-      <span className="fade-in">
-        <img src="https://i.giphy.com/media/8GY3UiUjwKwhO/source.gif" className="h4" />
-      </span>;
+      sentStatus = <img src="https://i.giphy.com/media/8GY3UiUjwKwhO/source.gif" className="h4 fade-in" />;
       form.reset();
     } else {
       sentStatus = '';
