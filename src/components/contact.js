@@ -60,6 +60,16 @@ class Contact extends Component {
         // request successfully delivered / sent to google
         this.setState({ isSending: false });
         this.setState({ isEmailSent: true });
+        this.setState({
+          name: '',
+          email: '',
+          comment: '',
+          touched: {
+            name: false,
+            email: false,
+            comment: false
+          }
+        });
       }
     }
   }
@@ -93,9 +103,7 @@ class Contact extends Component {
     if (isSending) {
       sentStatus = <i className="fa fa-spinner fa-pulse fa-3x fa-fw black-70 pt2-ns" />;
     } else if (isEmailSent) {
-      let form = document.getElementById("contact-form");
       sentStatus = <img src="https://i.giphy.com/media/8GY3UiUjwKwhO/source.gif" className="h4 fade-in" />;
-      form.reset();
     } else {
       sentStatus = '';
    }
@@ -129,7 +137,7 @@ class Contact extends Component {
               name="email"
               className={`input-reset ba b--black-20 pa2 mb2 db w-100 ${shouldMarkError('email') ? "error" : ""}`}
               onBlur={this.handleBlur('email')}
-              type="text"
+              type="email"
               value={this.state.email}
               onChange={this.onInputChange}
             />
