@@ -13,7 +13,7 @@ const Header = () => {
         <h2 className="f6 gray fw2 ttu tracked">web developer</h2>
 
         <h2 className="f5 f4-m f3-l fw2 black-70 pv5">
-          experienced manager, speaker & full-stack developer seeking a junior dev position
+          full-stack developer, speaker, and experienced manager
         </h2>
 
         <Link to="skillz" smooth={true} duration={500}>

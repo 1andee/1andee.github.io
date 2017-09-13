@@ -29,6 +29,26 @@ const Work = () => {
         </h1>
       </header>
 
+      <header className="tc">
+        <h2 className="f5 f4-m f3-l fw2 black-90 mv4">
+          current
+        </h2>
+      </header>
+
+      <h2 className="tc f5 f4-m f3-l fw2 black-70 pv2">
+        junior developer
+        <br />
+        the farm ventures
+        <br />
+        uxbridge, on
+      </h2>
+
+      <header className="tc">
+        <h1 className="f5 f4-m f3-l fw2 black-90 mv4">
+          past
+        </h1>
+      </header>
+
       <section className="fl w-100">
         {renderJobs}
       </section>
