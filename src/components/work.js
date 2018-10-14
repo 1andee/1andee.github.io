@@ -29,13 +29,10 @@ const Work = () => {
         </h1>
       </header>
 
-      <header className="tc">
-        <h2 className="f5 f4-m f3-l fw2 black-90 mv4">
-          current
-        </h2>
-      </header>
-
-      <h2 className="tc f5 f4-m f3-l fw2 black-70 pv2">
+      <h2 className="tc f5 f4-m f3-l fw2 black-70 pv3">
+        sept 2017 - present
+        <br />
+        <br />
         junior developer
         <br />
         the farm ventures

@@ -6,6 +6,7 @@ import ReactGA from 'react-ga';
 import Header from './components/header';
 import Skills from './components/skills';
 import Projects from './components/projects';
+import Hackathons from './components/hackathons';
 import EducationVolunteer from './containers/education_volunteer';
 import Work from './components/work';
 import Contact from './components/contact';
@@ -27,6 +28,7 @@ class App extends Component {
         <Header />
         <Skills />
         <Projects />
+        <Hackathons />
         <Work />
         <EducationVolunteer />
         <Contact />

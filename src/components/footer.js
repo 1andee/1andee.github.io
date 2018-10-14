@@ -11,8 +11,7 @@ const Footer = () => {
           <h1 className="pv0 f6 fw6 ttu tracked tc">Ian Duke</h1>
           <hr className="mw3 bb bw1 b--black-10" />
         </div>
-        <span className="f7 f6-l db black-70 tc">7-12 Albert Ave.</span>
-        <span className="f7 f6-l db black-70 tc">Toronto, ON M8V 2L4</span>
+        <span className="f7 f6-l db black-70 tc">Toronto, ON</span>
         <span className="f6 db fw6 pv3 tc"><a href="tel:+16475734232" className="link dim black-70" title="Call Ian Duke">
           +1 (647) 573-4232
         </a></span>

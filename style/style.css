@@ -3,6 +3,10 @@ Bounce animation courtesy Lous Lin
 https://github.com/l-lin/font-awesome-animation
 */
 
+body {
+  font-family: sans-serif;
+}
+
 .error {
   border: 1px solid red!important;
 }

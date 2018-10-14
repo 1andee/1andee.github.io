@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const Skills = () => {
 
-  const skillList = ['JavaScript', 'React', 'NativeScript', 'Node.js', 'Express.js', 'Postgres', 'Knex.js', 'MongoDB', 'Ruby on Rails', 'HTML5', 'CSS', 'jQuery', 'SQL', 'Heroku', 'Amazon AWS', 'GitHub', 'Bootstrap', 'Wordpress', 'Photoshop']
+  const skillList = ['JavaScript', 'React', 'NativeScript', 'Node.js', 'PHP', 'Express.js', 'SQL', 'Postgres', 'MongoDB', 'Ruby on Rails', 'HTML5', 'CSS', 'jQuery', 'SQL', 'Heroku', 'GitHub', 'Bootstrap', 'Wordpress', 'Photoshop']
 
   const renderSkills = skillList.map((skill) => {
     return (

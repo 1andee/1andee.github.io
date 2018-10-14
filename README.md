@@ -1,3 +1,1 @@
-# personal site
-
-http://ianduke.io/
+# Moved to [https://github.com/1andee/portfolio/](https://github.com/1andee/portfolio/)

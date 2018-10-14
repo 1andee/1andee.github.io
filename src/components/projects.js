@@ -11,8 +11,8 @@ const Projects = () => {
     ['URL Shortener', 'JS, Bootstrap', 'https://github.com/1andee/url-shortener', './images/tinyurl.png'],
     ['Fin Lookup', 'JS, jQuery, Postgres, Knex', 'https://github.com/1andee/ac-fin-lookup', './images/fin-lookup.png'],
     ['Quote Generator', 'JS, jQuery', 'https://github.com/1andee/hedberg-quote-machine', './images/hedberg.png'],
-    ['Youtube Viewer', 'React', 'http://iantube.herokuapp.com/', './images/youtube-viewer.png'],
-    ['Chattyapp', 'React, Sockets', 'https://github.com/1andee/chatty-app', 'http://via.placeholder.com/250x150']
+    ['Youtube Viewer', 'React', 'http://iantube.herokuapp.com/', './images/react.png'],
+    ['Chattyapp', 'React, Sockets', 'https://github.com/1andee/chatty-app', './images/react.png']
   ]
 
   const renderProjects = projectList.map((project) => {
